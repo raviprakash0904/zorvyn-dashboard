@@ -16,9 +16,24 @@ export function Sidebar() {
   return (
     <aside className="w-64 border-r bg-card hidden md:flex flex-col z-10 shadow-sm">
       <div className="h-16 flex items-center px-6 border-b">
-        <h2 className="text-2xl font-bold tracking-tight bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent">
-          Zorvyn.
-        </h2>
+      <div className="flex items-center gap-3 group cursor-pointer">
+  
+  <div className="flex items-center h-16 border-b px-6">
+  
+  <div className="flex items-baseline leading-none gap-2 cursor-pointer group">
+    
+    
+    <span className="text-4xl font-medium tracking-tight text-gray-300 transition-all duration-300 ease-out group-hover:text-gray-100 group-hover:scale-105 group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.2)]">
+      zorvyn
+    </span>
+    
+    <span className="text-[8px] relative top-[0.6rem] left-[-2.3rem] font-medium text-gray-500 tracking-wider">
+      fintech
+    </span>
+    
+  </div>
+</div>
+</div>
       </div>
       <nav className="flex-1 px-4 py-6 space-y-2">
         {navLinks.map((link) => {
