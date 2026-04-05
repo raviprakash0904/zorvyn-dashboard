@@ -2,7 +2,7 @@
 
 A production-grade, highly interactive finance dashboard built for the Zorvyn frontend developer assessment. This project demonstrates modern frontend architecture, high-performance data visualization, and advanced state management.
 
-🔗 **Live Demo:** zorvyn-dashboard-nu.vercel.app
+🔗 **Live Demo:** [https://zorvyn-dashboard-nu.vercel.app](https://zorvyn-dashboard-nu.vercel.app)
 
 ---
 
